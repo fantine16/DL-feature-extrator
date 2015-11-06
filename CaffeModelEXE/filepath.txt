@@ -1,0 +1,9 @@
+F:\WORKSPACE_ALL\matlab\DL_feature\sample\class1\image_0001.jpg
+F:\WORKSPACE_ALL\matlab\DL_feature\sample\class1\image_0002.jpg
+F:\WORKSPACE_ALL\matlab\DL_feature\sample\class1\image_0003.jpg
+F:\WORKSPACE_ALL\matlab\DL_feature\sample\class2\image_0001.jpg
+F:\WORKSPACE_ALL\matlab\DL_feature\sample\class2\image_0002.jpg
+F:\WORKSPACE_ALL\matlab\DL_feature\sample\class2\image_0003.jpg
+F:\WORKSPACE_ALL\matlab\DL_feature\sample\class3\image_0001.jpg
+F:\WORKSPACE_ALL\matlab\DL_feature\sample\class3\image_0002.jpg
+F:\WORKSPACE_ALL\matlab\DL_feature\sample\class3\image_0003.jpg

@@ -1,0 +1,36 @@
+========================
+如何提取cnn特征
+========================
+
+
+下载caffe_reference_imagenet_model文件到./CaffeModelEXE文件夹下面。
+地址：https://www.dropbox.com/s/n3jups0gr7uj0dv/caffe_reference_imagenet_model
+
+运行方式：
+
+*window命令行方式
+*matlab代码
+
+支持的样本数据存储结构：
+
+相同类别的图像放在同一个文件夹，表示类别的文件夹放在同一个目录下面。仅支持二级目录的检索。
+示例参见  ./sample
+./sample 文件夹下面有3个子文件，./class1	./class2	./class3
+每个子文件夹存放相同类别的图像。 
+
+
+Quick start
+1、准备好数据集，假设你的数据集名称是sample。更改filepathToText.m文件，
+		dataset='sample'
+		保存，运行filepathToText.m文件，然后会在当前目录下生成filepath.txt文件。
+2、进入CaffeModelEXE文件夹目录，阅读ReadMe.md文件。并且把上一步生成的filepath.txt文件复制到该目录下。
+		在命令行下，cd到当前目录，输入命令
+		ExtractDeepFeat.exe filepath.txt fc7
+		并且执行。
+3、更改ToSVMFormat.m文件，
+		dataset='sample'
+		保存，运行filepathToText.m文件，然后会在当前目录下生成data.mat和label.mat文件。分别存储样本特征和标签。可以直接调用libsvm的matlab接口训练分类器。
+		
+		
+联系：
+如果你发现任何bug，请联系  cliu16@fudan.edu.cn
